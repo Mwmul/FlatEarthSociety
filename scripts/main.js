@@ -32,7 +32,7 @@ menuIcon.addEventListener('click', exposeMenu);
 let elems = document.querySelectorAll('section > .inner *'),
 		sct,
 		vh;
-console.log(elems)
+
 
 function fadeIn() {
 	// update viewport height incase browser size is changed.
