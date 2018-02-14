@@ -43,7 +43,6 @@ function fadeIn() {
 	elems.forEach(e => {
 		if(sct > e.offsetTop-vh) {
 			e.style.opacity = "1"
-			console.log(e)
 		} else {
 			e.style.opacity = "0"
 		}
